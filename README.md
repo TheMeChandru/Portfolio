@@ -1,1 +1,1 @@
-https://themechandru.github.io/Portfolio-/
+https://themechandru.github.io/Portfolio/
