@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+  <div class="container">
+    <a href="#" class="logo">CS DEV</a>
+
+    <!-- Hamburger Icon -->
+    <button class="hamburger" id="hamburger">
+      <i class="bi bi-list"></i>
+    </button>
+
+    <!-- Navigation Links -->
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="navThemeToggle" class="nav-theme-toggle">🌙</button></li>
+    </ul>
+  </div>
+</nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="images/im.jpg" alt="Profile Image" class="profile-image fade-in">
+        <div class="hero-content fade-in">
+            <h1>CHANDRASHEKAR</h1>
+            <h2><span class="typing-text"></span><span class="cursor">|</span></h2>
+            <p class="animated-text">Enthusiastic MCA student and skilled MERN stack web developer with a strong foundation in full-stack development and modern UI/UX design. Proficient in building responsive web apps using React, Node.js, and MongoDB. Passionate about creating intuitive user experiences and solving real-world problems through clean, efficient code. Eager to contribute to dynamic development teams and innovative projects.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="#projects" class="btn btn-outline">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <p>I’m an enthusiastic MCA student and full-stack web developer specializing in the MERN stack (MongoDB, Express.js, React.js, Node.js) with a strong foundation in building dynamic, scalable, and user-centric web applications. With a keen eye for UI/UX design, I enjoy creating seamless digital experiences that not only look stunning but also function flawlessly across devices.</p>
+                    <p>My journey in web development began during college, where I built my first end-to-end website project. Since then, I’ve worked with startups and development teams to bring ideas to life through clean architecture, responsive design, and performance-optimized code.</p>
+                    <p>Outside of the tech world, I’m an avid trekker and biking enthusiast. I find inspiration and clarity in nature, whether I’m riding through winding trails or hiking up scenic routes — these adventures fuel my creativity and problem-solving skills in development.</p>
+                    
+                    <div class="about-skills">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">UI/UX</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">DSA</span>
+                        <span class="skill-tag">Bootstrap</span>
+                    </div>
+                </div>
+                <div class="experience fade-in">
+                    <h3>Internship Experience</h3><br>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>Web Development Intern</h4>
+                            <p class="company">Star Knowledge, Mysore | 1-Month Full-Time Internship</p>
+                            <p>Gained hands-on experience in building responsive and interactive websites using modern web technologies.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>Frontend Developer</h4>
+                            <p class="company">As a Frontend Intern, I contributed to building responsive and user-friendly web interfaces aligned with modern UI/UX standards.</p>
+                            <p>Developed clean and responsive UI components using HTML5, CSS3, JavaScript, and Bootstrap.</p>
+                            <p>Assisted in implementing responsive design principles to ensure cross-device compatibility.</p>
+                            <p>Debugged layout issues and refined component styling for better usability and performance.</p>
+                            <p>Applied Git for version control and participated in code reviews to follow industry best practices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title fade-in">Featured Projects</h2>
+           
+            <div class="projects-grid">
+              <a href="https://github.com/TheMeChandru/Ecommerce-Application">
+                <div class="project-card fade-in">
+                    <img src="images/Screenshot 2025-06-27 224944.png" alt="E-commerce dashboard interface showing product analytics with charts and statistics" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">E-commerce Website</h3>
+                        <p class="project-description">Developed a full-featured e-commerce platform with user authentication, product management, shopping cart, and secure payment gateway integration using MongoDB, Express.js, React, and Node.js.</p>
+                        <div class="project-tags">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Express.js</span>
+                            <span class="skill-tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                </a>
+                
+             
+                <a href="https://github.com/TheMeChandru/Chat-Application">
+                <div class="project-card fade-in">
+                    <img src="images/Screenshot 2025-06-27 225153.png" alt="One to one Chat Application" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Chat-Application</h3>
+                        <p class="project-description">Real-time Chat Application (MERN Stack): Built a one-to-one and group chat platform with socket-based real-time messaging, user presence detection, and chat history using MongoDB and WebSocket integration.</p>
+                        <div class="project-tags">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Express.js</span>
+                            <span class="skill-tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                </a>
+
+                <a href="https://github.com/TheMeChandru/Recommendation-System">
+                
+                <div class="project-card fade-in">
+                    <img src="images/Screenshot 2025-06-27 224820.png" alt="move Recomendation System" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Movie Recommendation-System</h3>
+                        <p class="project-description">Designed a personalized movie recommendation engine using content-based and collaborative filtering techniques, leveraging pandas, scikit-learn, and NLP-based feature engineering.</p>
+                        <div class="project-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">Scikit-learn</span>
+                            <span class="skill-tag">NLP-Based</span>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="container">
+            <h2 class="section-title fade-in">My Resume</h2>
+            <div class="resume-content fade-in">
+                <iframe src="resume/Myresume3.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
+                <div class="cta-buttons" style="margin-top: 20px;">
+                    <a href="resume/Myresume2[1].pdf" download class="btn btn-primary">Download as PDF</a>
+                    <a href="resume/Myresume2[1].docx" download class="btn btn-outline">Download as Word</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Get In Touch</h2>
+            <div class="contact-form">
+                <form id="contactForm" class="fade-in">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/chandra-shekar-a08b04275/" ><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/TheMeChandru" ><i class="bi bi-github"></i></a>
+                <a href="#" ><i class="bi bi-twitter-x"></i></a>
+                <a href="mailto:chandrashekar93802003@gmail.com" ><i class="bi bi-envelope"></i></a>
+            </div>
+            <p>© <span id="year"></span> Chandrashekar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Theme Toggle Button -->
+    <!-- Scroll to Top Button -->
+<button class="scroll-top" id="scrollTopBtn" title="Go to top"> ⬆ </button>
+
+
+    
+</body>
+</html>
